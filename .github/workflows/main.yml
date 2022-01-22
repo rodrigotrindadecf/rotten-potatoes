@@ -28,6 +28,7 @@ jobs:
             rodrigobrolezzi/rotten-potatoes:latest
             rodrigobrolezzi/rotten-potatoes:v${{ github.run_number }}
   CD:
+    needs: [CI]
     runs-on: ubuntu-latest
     
     steps:
