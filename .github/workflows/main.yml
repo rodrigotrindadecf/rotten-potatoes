@@ -37,4 +37,4 @@ jobs:
           push: true
           tags: |
             rodrigobrolezzi/rotten-potatoes:latest
-            rodrigobrolezzi/rotten-potatoes:${{ github.run_number }}
+            rodrigobrolezzi/rotten-potatoes:v${{ github.run_number }}
